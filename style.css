@@ -61,10 +61,18 @@ label[for=comment]{
     display: inline-block;
 }
 
-#video-length,
-#video-quality,
-#more-video,
-fieldset input{
+#front-end,
+#back-end,
+#data-visulization,
+#challenge,
+#gitter-help-rooms,
+#open-source-community,
+#videos,
+#city-meetups,
+#wiki,
+#forum,
+#additional-courses,
+input{
     height: 20px;
     width: 20px;
     margin: 0 15px 15px 0 ;
