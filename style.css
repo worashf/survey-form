@@ -1,0 +1,96 @@
+body{
+    font-family: sans-serif;
+}
+.main{
+    background: #0715d1;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #ffffff;
+    overflow-y: scroll ;
+    font-size: 24px;
+}
+.main::after{
+    background: rgba(0, 0, 0, 0.8);
+    content: "";
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.main>h1,
+.main>p{
+    text-align: center;
+    font-size: 35px;
+    z-index: 3;
+    position: relative;
+}
+.main-content{
+    background-color: #1b1b32e6;
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    z-index: 2;
+    position: relative;
+    box-shadow: 0px -1px 10px 5px purple;
+}
+#name,#email,#age,#dropdown,#comment{
+    display: block;
+    width: 100%;
+    height: 35px;
+    padding: 5px 10px;
+    color: #000000;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+label[for=name],
+label[for=email],
+label[for=age],
+label[for=comment]{
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+#video-length,
+#video-quality,
+#more-video,
+fieldset input{
+    height: 20px;
+    width: 20px;
+    margin: 0 15px 15px 0 ;
+}
+
+#comment{
+    height: 150px;
+    /* padding: 20px; */
+}
+label[for=comment]{
+    margin-top: 30px;
+}
+#submit{
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: #37af65;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 0;
+    color: #ffffff;
+    font-size: 20px;
+}
+input#email:invalid{
+border: 2px dashed red;
+}
+input#email:valid{
+    border: 2px solid rgb(12, 9, 9);
+    }
