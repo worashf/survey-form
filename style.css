@@ -72,7 +72,7 @@ fieldset input{
 
 #comment{
     height: 150px;
-    /* padding: 20px; */
+    padding: 10px;
 }
 label[for=comment]{
     margin-top: 30px;
